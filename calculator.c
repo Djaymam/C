@@ -6,16 +6,19 @@ int y;
 int result;
 int main(void){
 
-printf("Operation: ");
-scanf(" %c",&operator);
+
 //get imput of first numer
 printf("Type first number! \n");
 scanf("%d",&x);
 //get imput of the second number
-printf("Type the secund number!\n");
-scanf("%d",&y);
+   printf("Type the secund number!\n");
+   scanf("%d",&y);
+
 //get input of the operator
- // por sempre o espaco antes de %c
+// por sempre o espaco antes de %c
+   printf("Operation: ");
+   scanf(" %c",&operator);
+   
 
 
 //calculation

@@ -1,32 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char render();
-
 int main(void)
 {
-    int count;
-    printf("Size: ")
-        scanf("%d", &count);
-    /*int n;
+    int count,i,k;
+    
+    
     do
     {
-        printf("#");
-        printf("\t");
-    } while (count<n);*/
+        printf("Type a number (2-10): ");
+        scanf("%d", &count);
+        
+    } while (count>10 || count<=1);
 
-    for (int i = 0; i < count; i++)
+    for (i = 1; i <= count; i++) //print the collums
     {
-
-        for (int i = 0; i < 1; i++)
-        {
+        
+        for (int k = 1; k <= i; k++)  
+        {  
             printf("#");
-            printf("\t");
-            printf("#");
-        }
-
-        printf("\n");
+            // print the Star 
+        }  
+        printf ("\n");
+      
     }
-
     return 0;
 }
+
+
+    
+
+
