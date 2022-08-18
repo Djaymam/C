@@ -15,7 +15,7 @@ scanf("%d",&x);
    scanf("%d",&y);
 
 //get input of the operator
-// por sempre o espaco antes de %c
+// por sempre o espaco antes de %c 
    printf("Operation: ");
    scanf(" %c",&operator);
    
