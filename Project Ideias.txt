@@ -1,6 +1,6 @@
 =>Conversor moedas
 =>Conversor temp
-=>Calculadora basica
+
 =>Tabuada simples e complexa 
 =>Jogo de Quizz
 =>App para calculo de preco e taxa iva ou juros e desconto
