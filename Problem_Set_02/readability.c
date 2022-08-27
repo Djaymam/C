@@ -6,11 +6,11 @@
 
 
 int main(void){
-    //uncomment the cde below if u wich to type a sentense youselse or paste a new one in the text variable bellow.
-    //string text = get_string("Type or paste the text: ");
+    //uncomment the line below if u wich to type a sentense yourself or paste a new one in the text variable bellow.
+   string text = get_string("Type or paste the text: ");
 
     //in case you uncomment the code above to imput you sentense pls comment (//) the code below
-    string text= "When he was nearly thirteen, my brother Jem got his arm badly broken at the elbow. When it healed, and Jem's fears of never being able to play football were assuaged, he was seldom self-conscious about his injury. His left arm was somewhat shorter than his right; when he stood or walked, the back of his hand was at right angles to his body, his thumb parallel to his thigh.";
+    //string text= "When he was nearly thirteen, my brother Jem got his arm badly broken at the elbow. When it healed, and Jem's fears of never being able to play football were assuaged, he was seldom self-conscious about his injury. His left arm was somewhat shorter than his right; when he stood or walked, the back of his hand was at right angles to his body, his thumb parallel to his thigh.";
 
     printf("\n%s\n",text);
 
