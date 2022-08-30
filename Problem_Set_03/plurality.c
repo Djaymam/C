@@ -69,6 +69,20 @@ bool vote(string name)
     // TODO
     //para cada voters 
     //if name = candidate name =+candidade.vote
+    //array whith all vote size=votercount
+    //check the array for all votes and count than
+    /*
+        if (strcmp(name,candidates.name)==0)
+        {
+            candidates.votes++;
+            printf("+1");
+            return 0;
+        }
+        */
+
+      
+
+
     return false;
 }
 
