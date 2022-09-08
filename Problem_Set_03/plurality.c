@@ -68,18 +68,28 @@ bool vote(string name)
 {
     // TODO
     //para cada voters 
-    //if name = candidate name =+candidade.vote
-    //array whith all vote size=votercount
-    //check the array for all votes and count than
-    /*
-        if (strcmp(name,candidates.name)==0)
+    //if name = candidate.name update candidade.vote
+
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (strcmp(name,candidates[i].name)==0)
         {
-            candidates.votes++;
+           candidates[i].votes++;
+           return true;
+        }
+        
+    
+        //testing testing
+       /*
+        if (strcmp(name,candidates[i].name)==0)
+        {
+            candidates[i].votes++;
             printf("+1");
-            return 0;
+            printf("%d",candidates[i].votes);
+            return true;
         }
         */
-
+    }
       
 
 
@@ -90,5 +100,26 @@ bool vote(string name)
 void print_winner(void)
 {
     // TODO
+    int winner=0;
+    for (int i = 0; i < candidate_count; i++)
+    {
+       if (candidates[i].votes>winner)
+       {
+        winner=candidates[i].votes;
+       }
+       
+    }
+
+    for (int i = 0; i <candidate_count; i++)
+    {
+       if (candidates[i].votes==winner)
+       {
+        printf("Winner is: %s",candidates[i].name);
+       }
+       
+    }
+    
+    
+
     return;
 }
